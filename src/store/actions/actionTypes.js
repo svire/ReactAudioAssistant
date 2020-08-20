@@ -1,0 +1,13 @@
+export const FETCH_PRODUCTS_SUCCESS = "FETCH_PRODUCTS_SUCCESS";
+export const FETCH_PRODUCTS_FAIL = "FETCH_PRODUCTS_FAIL";
+export const FETCH_PRODUCTS_START = "FETCH_PRODUCTS_START";
+export const CART_ADD = "CART_ADD";
+export const CART_UPDATE = "CART_UPDATE";
+export const CART_REMOVE = "CART_REMOVE";
+export const CART_CLEAR = "CART_CLEAR";
+export const CHANGE_LINK = "CHANGE_LINK";
+export const SET_ERROR = "SET_ERROR";
+export const SUCC_COMMAND = "SUCC_COMMAND";
+export const TOGGLE_DIC = "TOGGLE_DIC";
+export const TURN_OFF = "TURN_OFF";
+export const SET_SEARCH_TERM = "SET_SEARCH_TERM";

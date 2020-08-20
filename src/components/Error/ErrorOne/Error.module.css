@@ -1,0 +1,19 @@
+.One {
+  display: grid;
+  margin: 5px;
+}
+
+.Row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 98%;
+  padding: 3px;
+  background-color: rgb(219, 219, 219);
+}
+.Row2 {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  width: 98%;
+  padding: 3px;
+  background-color: rgb(169, 169, 168);
+}

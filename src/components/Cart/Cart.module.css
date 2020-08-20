@@ -1,0 +1,122 @@
+.CartDiv {
+  background-color: #1d1e31;
+  height: 85px;
+  width: 85px;
+  margin: 100px;
+  position: relative;
+}
+
+.ImgDiv {
+  padding: 15px;
+}
+
+.ImgCart {
+  z-index: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.CartItems {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -70%);
+  z-index: 2;
+  top: 50%;
+  font-size: 25px;
+  font-weight: 600;
+  color: vantablack;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.Svasta {
+  background-color: thistle;
+}
+
+.OptionSelector {
+  width: 100%;
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1.25rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  padding: 0.625em 1.25em;
+}
+
+.ProductDetailsPrimary {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductDetails {
+  padding: 20px;
+}
+
+.DivProductPrice {
+  text-align: center;
+  font-size: 1.875rem;
+  font-family: var(--font-heading);
+  margin-bottom: 1.25rem;
+}
+
+.QuantityWrapper {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 1.25rem;
+}
+
+.SelectorWrapper {
+  display: block;
+}
+
+.DivAddWrapper {
+  margin-top: 100px;
+  display: flex;
+  height: 50px;
+}
+
+.DivAddWrapper input {
+  border-radius: 0;
+  border-top: none;
+  border-bottom: 1px solid #ccc;
+  width: 5rem; /* width: 5rem;  */
+  text-align: center;
+}
+
+.QuantityWrapper span {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  padding: 0.325em 1em;
+  cursor: pointer;
+  color: red;
+}
+
+.TableDiv {
+  margin-top: 50px;
+}
+
+.ProCont {
+  max-width: 1000px;
+  background-color: ghostwhite;
+  margin: 0 auto;
+  /* Clearfix */
+  overflow: auto;
+  text-align: center;
+}
+
+.Inpu {
+  text-align: center;
+  border: none;
+  font-size: 1.2em;
+  width: fit-content;
+  background-color: transparent;
+}

@@ -1,0 +1,48 @@
+.NavigationItems {
+  margin: 0;
+}
+
+/*  sredi UL */
+.NavigationItems ul {
+  list-style: none; /*  skini bullets ispred liste  */
+  display: flex; /* jedan kraj drugog  */
+  padding: 0;
+  margin: 0;
+}
+/* sad dodaj malo prostora izmedju linkova  */
+.NavigationItems li {
+  padding: 0 0.7rem;
+}
+
+.Space {
+  flex: 1;
+}
+
+/*   links change color */
+.NavigationItems a {
+  text-decoration: none;
+  color: white;
+}
+.NavigationItems a:active,
+.NavigationItems a:hover {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2px;
+  text-decoration: none;
+}
+@media (max-width: 769px) {
+  /* Navigation items invisible in mobile mode */
+  .NavigationItems {
+    display: none;
+  }
+}
+/* to make button invisible in desktop mode and big screens*/
+@media (min-width: 769px) {
+  .DivToggler {
+    display: none;
+  }
+  /* if we dont have a button i doesnt need a margin*/
+  .Logo {
+    margin-left: 0;
+  }
+}

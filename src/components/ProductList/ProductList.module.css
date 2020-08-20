@@ -1,0 +1,37 @@
+.ProCont {
+  max-width: 1000px;
+  background-color: transparent;
+  margin: 0 auto;
+
+  /* Clearfix */
+  overflow: auto;
+}
+
+.Input {
+  background-color: royalblue;
+  height: 100px;
+  width: 100%;
+
+  text-align: center;
+}
+.Zudvi {
+  font-size: 30px;
+  color: royalblue;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+}
+
+.NoNo {
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ProCont::after {
+  /* Clearfix */
+  content: "";
+  clear: both;
+  display: table;
+}

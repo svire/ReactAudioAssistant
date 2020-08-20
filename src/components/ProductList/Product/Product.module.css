@@ -1,0 +1,63 @@
+.Product {
+  float: left;
+  width: 33%;
+}
+
+.Product :hover {
+  background-color: #106a8b;
+  cursor: pointer;
+}
+
+.ProductIn {
+  margin: 10px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1d1e31;
+  /*border: 1px cadetblue solid; */
+}
+
+.DivPic {
+  height: 70%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.Pic {
+  width: 100%;
+  height: 100%;
+}
+
+.Info {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.ProductText {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 650;
+  color: white;
+}
+
+.ProductPrice {
+  font-size: 22px;
+  font-weight: 500;
+  color: #0dca4cc5;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Product {
+    width: 33%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Product {
+    width: 50%;
+  }
+}

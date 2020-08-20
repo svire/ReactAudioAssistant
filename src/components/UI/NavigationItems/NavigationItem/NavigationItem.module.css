@@ -1,0 +1,23 @@
+.NavigationItem {
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+  color: #15b2eb;
+}
+
+@media (max-width: 769px) {
+  .NavigationItem {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}

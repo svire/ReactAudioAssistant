@@ -1,0 +1,48 @@
+.SideDrawer {
+  height: 100%;
+  width: 60%;
+  max-width: 300px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: #1d1e31;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+  z-index: 200;
+  transform: translateX(-100%);
+  /* ako nije otvoren side drawer default */
+  transition: transform 0.3s ease-out; /* animacija za transform kad se otvara */
+  padding: 0px;
+}
+
+.Open {
+  transform: translateX(0%); /* da bude vidljiv */
+}
+
+@media (min-width: 769px) {
+  .SideDrawer {
+    display: none;
+  }
+}
+
+.NavigationItems {
+  margin-top: 20px;
+  height: 100%;
+  display: grid;
+}
+
+.NavigationItems ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.Drawer {
+  margin: 2px;
+  width: 98%;
+  height: 30px;
+}
+
+.SideDrawer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+}

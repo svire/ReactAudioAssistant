@@ -1,0 +1,66 @@
+.Background {
+  background: #f03;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.3);
+  margin: auto;
+}
+
+.Button {
+  text-align: center;
+  color: seashell;
+  font-size: 25px;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: none;
+  outline: 0 !important;
+}
+
+.Play {
+  background-color: rgba(13, 222, 83, 0.951);
+}
+.Stop {
+  background-color: #f03;
+}
+
+.Background :hover {
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.136);
+}
+
+/*
+.Background {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: auto;
+
+  padding: 15px;
+}
+
+.Button {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: #f03;
+}
+*/
+/*
+.Record {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: rgb(106, 250, 106);
+  border: 8px solid rgba(0, 0, 0, 0.698);
+  font-size: 20px;
+  margin: 2px;
+}
+
+.Background :hover {
+  border: 5px solid rgba(106, 29, 29, 0.096);
+}
+*/

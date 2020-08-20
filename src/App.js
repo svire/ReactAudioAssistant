@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+//import Aux from "./hoc/Aux";
+import "./App.css";
+import {withRouter} from "react-router-dom";
 
-function App() {
+import ErrorComp from "./components/Error/ErrorComp";
+import Layout from "./components/Layout/Layout";
+import Dictaphone from "./components/Dictaphone/Dictaphone";
+import Routes from "./components/Routes/Routes";
+import CommandComp from "./components/Command/CommandComp";
+
+const App = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Layout />
+      <div className='Container'>
+        <nav className='NavLeft'>
+          <CommandComp />
+        </nav>
+        <section>
+          <Dictaphone history={props.history} {...props} />
+          <Routes />
+        </section>
+        <aside>
+          <ErrorComp />
+        </aside>
+        <footer>Footer</footer>
+      </div>
     </div>
   );
-}
+};
 
-export default App;
+export default withRouter(App);
+/*
+
+  <Dictaphone history={props.history} {...props} />
+
+ <div style={{marginTop: "85px"}}></div>
+        <button onClick={() => Amaha("cart")}>Amas</button>
+
+        <Errory />
+*/
