@@ -3,7 +3,7 @@
 
 ## About
 
-React application that can be controlled by voice. App is developed with help of react-speech-recognition package. useSpeechRecognition from that package is a React hook that gives a component access to a transcript of speech picked up from the user's microphone ([docs](https://www.npmjs.com/package/react-speech-recognition)). 
+React demo app that can be controlled by voice. App is developed with help of react-speech-recognition package. useSpeechRecognition is a React hook that gives a component access to a transcript of speech picked up from the user's microphone ([docs](https://www.npmjs.com/package/react-speech-recognition)). 
 
   
  
@@ -11,7 +11,7 @@ React application that can be controlled by voice. App is developed with help of
 ## How it works
 
 Dictaphone component is the place where all magic happens. When you start the dictaphone, transcript will be taken depending on things you say on the microphone. Because microphone is recording continuosly, its important to define some command that will signal the end of the sentence.
-I defenied command "Zulu", which will tell the program when you finished the sentence.
+I defenied command "Zulu", which will tell the program when the sentence is over.
 
  
 1. Press play button     
