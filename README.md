@@ -3,7 +3,7 @@
 
 ## About
 
-React demo app that can be controlled by voice. App is developed with help of react-speech-recognition package. useSpeechRecognition is a React hook that gives a component access to a transcript of speech picked up from the user's microphone  **([docs](https://www.npmjs.com/package/react-speech-recognition)). **
+React demo app that can be controlled by voice. App is developed with help of react-speech-recognition package. useSpeechRecognition is a React hook that gives a component access to a transcript of speech picked up from the user's microphone   ([**docs**](https://www.npmjs.com/package/react-speech-recognition)). 
 
   
  
