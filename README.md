@@ -19,8 +19,8 @@ I defenied command "Zulu", which will tell the program when you finished the sen
 3. Say word Zulu (pronounce 'ZOO luu') at the end of the sentence (That will check, if current transcript match some of the predefined commands)
 4. Depending on transcript (things you say), program will take some action and display successful command (left side), or throw an error (right side) of window.
 
-### Demo
-
+### Demo 
+https://www.youtube.com/watch?v=W3aUsFDED08 (Click on the picture below to view demo on youtube)
 [![LOOK AT THE PICTURE](https://github.com/svire/ReactAudioAssistant/blob/master/src/assets/navigateproducts.png)](https://www.youtube.com/watch?v=W3aUsFDED08)
 
 ## Commands (Dictaphone.js)
